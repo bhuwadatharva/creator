@@ -107,7 +107,7 @@ export const getImageSize = (
     );
   }
   return image?.[dimension] || 1000;
-};
+}
 
 // DOWNLOAD IMAGE
 export const download = (url: string, filename: string) => {
